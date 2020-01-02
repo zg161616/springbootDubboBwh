@@ -17,6 +17,7 @@
     <modules>
         <module>../consumer</module>
         <module>../provider</module>
+        <module>../eureka</module>
     </modules>
 
     <repositories>
@@ -27,13 +28,6 @@
         </repository>
     </repositories>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+
 
 </project>

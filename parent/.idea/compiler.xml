@@ -9,12 +9,15 @@
         <module name="base" />
         <module name="consumer" />
         <module name="consumer (1)" />
+        <module name="eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="base" target="1.8" />
       <module name="consumer" target="1.8" />
       <module name="consumer (1)" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="eureka" target="1.8" />
       <module name="parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>

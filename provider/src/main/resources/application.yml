@@ -1,6 +1,8 @@
 server:
   port: 39909
 spring:
+  application:
+    name: provider
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: root
@@ -33,3 +35,11 @@ dubbo:
     id: zookeeper
   scan:
     base-packages: com.example.service.impl
+
+
+eureka:
+  instance:
+    prefer-ip-address: true #注册服务的时候使用服务的ip地址
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
